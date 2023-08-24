@@ -1,31 +1,43 @@
 {
   "jobs": [
     {
+      "id": 1,
       "name": "Frontend Developer",
       "company": "PeakU Inc",
       "modality": "Remote",
       "salary": 2000000,
       "positions": 5,
       "date": "2023-08-25",
-      "tags": ["Supervision", "Result oriented"]
+      "tags": [
+        "Supervision",
+        "Result oriented"
+      ]
     },
     {
+      "id": 2,
       "name": "Frontend Developer",
       "company": "PeakU Inc",
       "modality": "Remote",
       "salary": 2000000,
       "positions": 5,
       "date": "2023-08-25",
-      "tags": ["Supervision", "Result oriented"]
+      "tags": [
+        "Supervision",
+        "Result oriented"
+      ]
     },
     {
+      "id": 3,
       "name": "Frontend Developer",
       "company": "PeakU Inc",
       "modality": "Remote",
       "salary": 2000000,
       "positions": 5,
       "date": "2023-08-25",
-      "tags": ["Supervision", "Result oriented"]
+      "tags": [
+        "Supervision",
+        "Result oriented"
+      ]
     }
   ]
 }
