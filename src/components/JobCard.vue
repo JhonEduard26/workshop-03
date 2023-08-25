@@ -26,11 +26,11 @@ defineProps({
         </span>
       </div>
       <div class="card-description-container">
-        <MiniCard logoUrl="./assets/company.svg" :name="companyName" />
-        <MiniCard logoUrl="./assets/location.svg" :name="modality" />
-        <MiniCard logoUrl="./assets/cash.svg" :name="'$ ' + salary + ' COP'" />
-        <MiniCard logoUrl="./assets/people.svg" :name="positions + ' vacantes'" />
-        <MiniCard logoUrl="./assets/calendar.svg" :name="publishDate" />
+        <MiniCard logoUrl="company.svg" :name="companyName" />
+        <MiniCard logoUrl="location.svg" :name="modality" />
+        <MiniCard logoUrl="cash.svg" :name="'$ ' + salary + ' COP'" />
+        <MiniCard logoUrl="people.svg" :name="positions + ' vacantes'" />
+        <MiniCard logoUrl="calendar.svg" :name="publishDate" />
         <div class="card-benefits">
           <img class="card-icon" src="../assets/award.svg" alt="award logo" title="Premios" />
           <img class="card-icon" src="../assets/sport.svg" alt="sport logo" title="Recreación " />
@@ -46,7 +46,7 @@ defineProps({
   overflow-x: hidden;
   display: grid;
   align-items: center;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   column-gap: 12px;
   padding: 12px;
   border-radius: 4px;
@@ -77,6 +77,7 @@ defineProps({
 
 .card-benefits {
   display: inline-flex;
+  justify-self: flex-end;
   column-gap: 4px;
 }
 
