@@ -17,10 +17,8 @@ defineProps({
 <style scoped>
 p {
   display: inline-flex;
-  column-gap: 4px;
-}
-.card-icon {
-  width: 20px;
-  height: 20px;
+  align-items: center;
+  column-gap: 2px;
+  font-size: 0.85rem;
 }
 </style>

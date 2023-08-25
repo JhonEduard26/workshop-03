@@ -5,3 +5,8 @@
 p {
   margin: 0;
 }
+
+.card-icon {
+  width: 20px;
+  height: 20px;
+}
