@@ -26,11 +26,11 @@ defineProps({
         </span>
       </div>
       <div class="card-description-container">
-        <MiniCard logoUrl="src/assets/company.svg" :name="companyName" />
-        <MiniCard logoUrl="src/assets/location.svg" :name="modality" />
-        <MiniCard logoUrl="src/assets/cash.svg" :name="'$ ' + salary + ' COP'" />
-        <MiniCard logoUrl="src/assets/people.svg" :name="positions + ' vacantes'" />
-        <MiniCard logoUrl="src/assets/calendar.svg" :name="publishDate" />
+        <MiniCard logoUrl="./assets/company.svg" :name="companyName" />
+        <MiniCard logoUrl="./assets/location.svg" :name="modality" />
+        <MiniCard logoUrl="./assets/cash.svg" :name="'$ ' + salary + ' COP'" />
+        <MiniCard logoUrl="./assets/people.svg" :name="positions + ' vacantes'" />
+        <MiniCard logoUrl="./assets/calendar.svg" :name="publishDate" />
         <div class="card-benefits">
           <img class="card-icon" src="../assets/award.svg" alt="award logo" title="Premios" />
           <img class="card-icon" src="../assets/sport.svg" alt="sport logo" title="Recreación " />
